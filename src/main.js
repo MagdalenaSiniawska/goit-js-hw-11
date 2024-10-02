@@ -39,10 +39,10 @@ async function onSubmitForm(event) {
   event.target.reset();
 }
 
-// function addLoader() {
-//   div.classList.add('loader');
-//   gallery.append(div);
-// }
+function addLoader() {
+  div.classList.add('loader');
+  gallery.append(div);
+}
 
 function validateGalleryData(galleryData) {
   if (!galleryData) {
